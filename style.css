@@ -1,0 +1,48 @@
+    /* Custom styles */
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .container-fluid {
+        max-width: 1200px;
+    }
+
+    h2 {
+        font-weight: 600;
+    }
+
+    button {
+        font-weight: 500;
+    }
+
+
+    /* Right Section Image Styling */
+    .mobile-image {
+        width: 90%; /* Mengatur lebar gambar lebih kecil */
+        height: auto;
+        max-height: 200px; /* Batas maksimal tinggi gambar */
+        object-fit: cover;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto 20px auto; /* Menempatkan gambar di tengah dan memberi jarak dengan form */
+    }
+
+    .desktop-image {
+        width: 100%;
+        object-fit: cover;
+        margin-left: 25%
+    }
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-lg-5 {
+        max-width: 100%;
+    }
+
+    .col-lg-7 img {
+        display: none;
+    }
+}
