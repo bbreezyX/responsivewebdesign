@@ -1,4 +1,3 @@
-    /* Custom styles */
     body {
         background-color: #f8f9fa;
     }
@@ -15,16 +14,14 @@
         font-weight: 500;
     }
 
-
-    /* Right Section Image Styling */
     .mobile-image {
-        width: 90%; /* Mengatur lebar gambar lebih kecil */
+        width: 90%; 
         height: auto;
-        max-height: 200px; /* Batas maksimal tinggi gambar */
+        max-height: 200px; 
         object-fit: cover;
         border-radius: 20px;
         display: block;
-        margin: 0 auto 20px auto; /* Menempatkan gambar di tengah dan memberi jarak dengan form */
+        margin: 0 auto 20px auto; 
     }
 
     .desktop-image {
@@ -32,7 +29,7 @@
         object-fit: cover;
         margin-left: 25%
     }
-/* Responsive adjustments */
+
 @media (max-width: 991.98px) {
     .row {
         flex-direction: column;
